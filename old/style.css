@@ -1,0 +1,64 @@
+#left,
+#right {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+#left {
+    width: 70%;
+}
+
+#right {
+    width: 29%;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+body,
+html {
+    height: 99%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+}
+
+input {
+    width: 45%;
+    margin: 5px;
+}
+
+#inp_fill,
+#inp_alpha {
+    width: 20%;
+}
+#add {
+    width: 100%;
+}
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#elementi > table {
+    width: 100%;
+}
